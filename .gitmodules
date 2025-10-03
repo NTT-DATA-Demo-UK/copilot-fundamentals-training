@@ -1,0 +1,3 @@
+[submodule "ms-terminal"]
+	path = ms-terminal
+	url = https://github.com/microsoft/terminal
