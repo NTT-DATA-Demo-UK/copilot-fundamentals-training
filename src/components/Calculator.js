@@ -32,7 +32,7 @@ function Calculator() {
     };
 
     const handleKeyClick = (char) => {
-        const operatorRegex = /[\+\-\*\/\%\^]/;
+        const operatorRegex = /[+\-*/%^]/;
         const isOperator = operatorRegex.test(char); // true
 
         // set the operator

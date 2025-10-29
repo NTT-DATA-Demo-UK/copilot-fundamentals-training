@@ -1,16 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { useState } from 'react'
+import React from 'react'
 import GitHubHeader from './components/GitHubHeader'
-import Calculator from './components/Calculator.js'
+import RepositoryForker from './components/RepositoryForker'
 
 function App() {
   return (
     <div className="App">
-      <GitHubHeader title="Calculator Demo" avatar="jefeish"/>
+      <GitHubHeader title="Repository Forker" avatar="jefeish"/>
       <div className="MainContent">
-        {/* Calculator */}
-
+        <RepositoryForker />
       </div>
     </div>
   );

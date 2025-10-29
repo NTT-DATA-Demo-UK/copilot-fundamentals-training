@@ -5,8 +5,10 @@
 // click on the clear button
 // add two numbers ; subtract two numbers ; multiply two numbers ; divide two numbers
 
-
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
+import Calculator from './Calculator';
 
-
+test('renders calculator component', () => {
+  render(<Calculator />);
+});
